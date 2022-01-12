@@ -12,14 +12,54 @@ body {
   line-height: 19px;
 }
 
+:root {
+  --color-blue: #001e64;
+}
+
 .container {
-    max-width: 1220px;
-    padding: 0 10px;
-    margin: 0 auto;
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../images/header_bg.jpg);
+  background-position: bottom center;
 }
 
 .header__top {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 27px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+
+.header__title {
+  max-width: 589px;
+  margin-top: 176px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 95px;
+  color: var(--color-blue);
+}
+
+.header__slider {
+  margin-top: 130px;
+}
+
+.header__btn {
+  width: 300px;
+  height: 55px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  
+  border-radius: 20px;
+  opacity: 0.5;
+  background-color: #ffffff;
+
 }
